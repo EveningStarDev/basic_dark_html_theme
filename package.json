@@ -1,0 +1,21 @@
+{
+  "name": "basic-dark-html-theme",
+  "displayName": "Basic Dark HTML Theme",
+  "description": "A dark theme for HTML based on VS Code's default Dark theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Basic Dark HTML Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Basic Dark HTML Theme-color-theme.json"
+      }
+    ]
+  }
+}
